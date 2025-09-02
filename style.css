@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8ECAE6;
+    width: fit-content;
+    border-radius: 30px;
+    margin: 8vh auto;
+    padding: 5vmin;
+}
+
+body{
+    background-color: #023047;
+}
+.container div{
+    margin: auto;
+}
+
+button{
+    border: 2px solid lightseagreen;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #FFB703;
+    width: fit-content;
+    margin: 3vmin auto;
+    cursor: pointer;
+}
+.inp{
+display: flex;
+flex-direction: column;
+}
+
+label{
+    margin: 2vmin;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    border-radius: 20px;
+    border: 2px solid crimson;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #219EBC;
+    color: white;
+}
+
+select{
+    height: 42px;
+    width: auto;
+    margin: 5px 10px;
+    background-color: #FB8500;
+    color: white;
+    border-radius: 10px;
+}
+
+.frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: cornsilk;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.change{
+    display: flex;
+}
+.from{
+    padding: 3vmin 5vmin;
+}
